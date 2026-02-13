@@ -1,88 +1,126 @@
-# Better Call Chadi 🚀
+<div align="center">
 
+```text
+╔════════════════════════════════════════════════════════════════════════════╗
+║    ____  _____ _____ _____ _____ ____      ____    _    _     _            ║
+║   | __ )| ____|_   _|_   _| ____|  _ \    / ___|  / \  | |   | |           ║
+║   |  _ \|  _|   | |   | | |  _| | |_) |  | |     / _ \ | |   | |           ║
+║   | |_) | |___  | |   | | | |___|  _ <   | |___ / ___ \| |___| |___        ║
+║   |____/|_____| |_|   |_| |_____|_| \_\   \____/_/   \_\_____|_____|       ║
+║     ____ _   _    _    ____ ___                                            ║
+║    / ___| | | |  / \  |  _ \_ _|                                           ║
+║   | |   | |_| | / _ \ | | | | |                                            ║
+║   | |___|  _  |/ ___ \| |_| | |                                            ║
+║    \____|_| |_/_/   \_\____/___|                                           ║
+║                                                                            ║
+╚════════════════════════════════════════════════════════════════════════════╝
+```
+
+# 🚀 BETTER CALL CHADI 🚀
 ### The Ultimate Cyberpunk SOC Dashboard & Pentesting Toolkit
 
-> **Better Call Chadi** is a comprehensive, browser-based security operations and penetration testing platform designed for ethical hackers, red teamers, and SOC analysts. Built with a sleek, responsive Cyberpunk aesthetic, it integrates powerful scanning, forensics, and intelligence capabilities into a single unified interface.
+[![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![Flask](https://img.shields.io/badge/Flask-2.3.2-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
+[![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+
+<br/>
+
+> **"Stop staring at terminal output. Start visualizing the battlefield."**
+
+**Better Call Chadi** transforms your browser into a command center for Penetration Testing, Red Teaming, and Threat Intelligence. Built with a responsive **Cyberpunk** aesthetic, it combines powerful scanners, offensive engineering tools, and real-time 3D visualization into one unified platform.
+
+[Features](#-features) • [Screenshots](#-screenshots) • [Installation](#-installation) • [Usage](#-usage)
+
+</div>
 
 ---
 
-### 🔥 Features
+## 🔥 Features
 
-#### 🛡️ 1. Advanced Scanner
-Perform extensive reconnaissance and vulnerability assessments with dedicated profiles:
-*   **Web / API / Infra Scan**: Custom scopes.
-*   **Vulnerability Profiles**: Quick, Stealth, SQLi, XSS, RCE hunting.
-*   **Active Toolkit**:
-    *   🏷️ **Subdomain Enumeration**
-    *   🕸️ **App Crawler**
-    *   🔌 **Port Scanner**
-    *   🆔 **Whois Lookup**
-    *   🌍 **DNS Records**
-    *   🔒 **SSL Inspector**
-    *   ⚙️ **Tech Stack Detection**
+### 🛡️ 1. Advanced Scanner
+Perform deep reconnaissance and vulnerability assessment.
+- [x] **Web / API / Infra Scan**: Custom scopes.
+- [x] **Vulnerability Profiles**: Quick, Stealth, SQLi, XSS, RCE hunting.
+- [x] **Active Toolkit**: Subdomain Enumeration, Port Scanner, Tech Stack Detection.
 
-#### 🔬 2. Engineer Mode
-Deep dive into artifacts and binaries:
-*   **Binary Inspector**: Static analysis and YARA scanning for malware detection.
-*   **Wordlist Generator**: Create custom intelligent wordlists based on charset/patterns.
-*   **PCAP Analyzer**: Network traffic inspection with protocol breakdown and threat alerts.
+### 🔬 2. Engineer Mode
+Analyze artifacts and generate payloads.
+- [x] **Binary Inspector**: Static analysis & YARA scanning.
+- [x] **PCAP Analyzer**: Network traffic inspection with threat alerts.
+- [x] **Wordlist Generator**: Create intelligent custom wordlists based on target patterns.
 
-#### 🕶️ 3. Behind the Wall (Red Team Tools)
-Tools designed for the offensive operator:
-*   **Shadow Cloak**: Payload obfuscation and evasion techniques.
-*   **Social Engineer**: High-fidelity phishing template generator with scenario support.
-*   **Ghost Proxies**: Real-time proxy scraper and tester.
-*   **VPN Gate**: Grab OpenVPN configs by country code.
+### 🕶️ 3. Behind the Wall (Red Team)
+Offensive tools for the modern operator.
+- [x] **Social Engineer**: High-fidelity phishing template generator with scenario support.
+- [x] **Ghost Proxies**: Real-time proxy scraper & tester.
+- [x] **Shadow Cloak**: Payload obfuscation techniques.
 
-#### 🌍 4. Global Intelligence (Live Map)
-Visualize cyber threats in real-time on an interactive 3D Globe:
-*   **Active Threats**: Top malware families currently active in the wild.
-*   **Real-Time Feed**: Streaming attacks and C2 beacons with geolocation flags.
-*   **3D Visualization**: Dynamic arcs and points representing attack vectors.
-
-#### 🔎 5. Threat Intelligence & Forensics
-*   **Threat Groups**: Detailed wiki of known APT groups and their TTPs.
-*   **Intel Feed**: Latest cybersecurity news aggregation.
-*   **Forensics**: APK Analysis and System Triage data parsing.
+### 🌍 4. Global Intelligence (Live Map)
+Visualize the cyber war in real-time.
+- [x] **3D WebGL Globe**: Watch live attacks (SSH Brute Force, Malware Beacons) across the world.
+- [x] **Active Threats**: Top malware families currently in the wild.
+- [x] **Real-Time Feed**: Streaming event ticker with country flags.
 
 ---
 
-### 📸 Screenshots
+## 📸 Screenshots
 
-| Dashboard Overview | Live Global Map | Engineer Mode | Behind The Wall |
-|:---:|:---:|:---:|:---:|
-| <img src="screenshots/dash.png" width="200" alt="Dashboard" /> | <img src="screenshots/globe.png" width="200" alt="Live Map" /> | <img src="screenshots/engineer.png" width="200" alt="Engineer" /> | <img src="screenshots/wall.png" width="200" alt="Red Team Tools" /> |
-
----
-
-### 🚀 Getting Started
-
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/chadi0x/better-call-chadi.git
-    cd better-call-chadi
-    ```
-
-2.  **Start Services (Docker):**
-    ```bash
-    docker-compose up --build
-    ```
-
-3.  **Access the Dashboard:**
-    Open your browser and navigate to `http://localhost:3000`.
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><b>Dashboard</b><br><img src="screenshots/dash.png" width="200" alt="Dashboard"/></td>
+      <td align="center"><b>Live Map</b><br><img src="screenshots/globe.png" width="200" alt="Live Map"/></td>
+      <td align="center"><b>Engineer</b><br><img src="screenshots/engineer.png" width="200" alt="Engineer"/></td>
+      <td align="center"><b>Red Team</b><br><img src="screenshots/wall.png" width="200" alt="Red Team"/></td>
+    </tr>
+  </table>
+</div>
 
 ---
 
-### 🛡️ Security Philosophy
+## 🚀 Installation
 
-> *"The only truly secure system is one that is powered off, cast in a block of concrete and sealed in a lead-lined room with armed guards - and even then I have my doubts."*
-> 
-> — **Gene Spafford**
+### Prerequisites
+- [Docker](https://www.docker.com/) & [Docker Compose](https://docs.docker.com/compose/)
+
+### Quick Start
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/chadi0x/better-call-chadi.git
+cd better-call-chadi
+
+# 2. Launch with Docker Compose
+docker-compose up --build
+```
+
+> The application will be available at `http://localhost:3000`
 
 ---
 
-### 🤝 Contributing
+## 🛠️ Usage
 
-Contributions are welcome! Please open an issue or submit a pull request if you have any cool ideas or bug fixes.
+1.  **Scanner**: Enter a target domain (e.g., `example.com`), select a profile (e.g., `Full Recon`), and hit **SCAN**.
+2.  **Engineer**: Drag & Drop a suspicious file (`.exe`, `.apk`, `.pcap`) to analyze metadata and strings.
+3.  **Red Team**: Use the **Social Engineer** tab to generate a convincing phishing page for your engagement.
+4.  **Intel**: switch to the **Live Map** tab to monitor global threat levels.
 
-**Disclaimer:** This tool is for **educational and authorized testing purposes only**. The developers are not responsible for any misuse or damage caused by this software. Use responsibly.
+---
+
+## 🛡️ Disclaimer
+
+This project is for **educational purposes and authorized testing only**. 
+The developers are not responsible for any misuse or damage caused by this software. 
+**Do not use this tool on systems you do not own or have explicit permission to test.**
+
+---
+
+<div align="center">
+
+Made with ❤️ and ☕ by **Chadi**
+
+[![GitHub](https://img.shields.io/badge/GitHub-chadi0x-181717?style=social&logo=github)](https://github.com/chadi0x)
+[![Twitter](https://img.shields.io/badge/Twitter-@chadi0x-1DA1F2?style=social&logo=twitter)](https://twitter.com/chadi0x)
+
+</div>
