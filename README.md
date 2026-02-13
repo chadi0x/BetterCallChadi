@@ -1,4 +1,7 @@
-<div align="left">
+
+# 🚀 BETTER CALL CHADI 🚀
+### The Ultimate Dark SOC Dashboard & Pentesting Toolkit
+<div align="middle">
 
 ```text
 ╔═════════════════════════════════════════════════════════════════════════════╗
@@ -16,8 +19,6 @@
 ╚═════════════════════════════════════════════════════════════════════════════╝
 ```
 
-# 🚀 BETTER CALL CHADI 🚀
-### The Ultimate Dark SOC Dashboard & Pentesting Toolkit
 
 <img width="1667" height="852" alt="Screenshot 2026-02-13 at 01 33 37" src="https://github.com/user-attachments/assets/f9b6beb8-48a1-45c5-bc99-eb79e24322ae" />
 
@@ -90,7 +91,7 @@ Know your enemy before they know you.
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/chadi0x/better-call-chadi.git
+git clone https://github.com/chadi0x/BetterCallChadi.git
 cd better-call-chadi
 
 # 2. Launch with Docker Compose
