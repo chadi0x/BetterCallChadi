@@ -67,14 +67,7 @@ Visualize the cyber war in real-time.
 ## 📸 Screenshots
 
 <div align="center">
-  <table>
-    <tr>
-      <td align="center"><b>Dashboard</b><br><img src="screenshots/dash.png" width="200" alt="Dashboard"/></td>
-      <td align="center"><b>Live Map</b><br><img src="screenshots/globe.png" width="200" alt="Live Map"/></td>
-      <td align="center"><b>Engineer</b><br><img src="screenshots/engineer.png" width="200" alt="Engineer"/></td>
-      <td align="center"><b>Red Team</b><br><img src="screenshots/wall.png" width="200" alt="Red Team"/></td>
-    </tr>
-  </table>
+  <img src="https://github.com/user-attachments/assets/82483119-c103-40c2-9445-3d0854e1aabe" width="800" alt="Live Threat Map" style="border-radius: 10px; box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);"/>
 </div>
 
 ---
